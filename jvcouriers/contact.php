@@ -3,7 +3,7 @@
 session_start();
 
 // Your email address where messages will be sent
-$to_email = "jvcouriersltd@gmail.com"; // Replace with your email
+$to_email = "contact@jvcouriersltd.com"; // Replace with your email
 $subject = "New Contact Form Submission";
 
 // Check if the form is submitted
