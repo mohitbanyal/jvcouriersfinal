@@ -1,5 +1,18 @@
 ---
 layout: null
 ---
-
-{% include_relative jvcouriers/index.html %}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>JV Couriers</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Make all relative paths resolve from /jvcouriers/ -->
+  <base href="/jvcouriers/">
+  <!-- If your original head had CSS/JS includes, copy them here,
+       or keep them in the partial as absolute /jvcouriers/... paths -->
+</head>
+<body>
+  {% include_relative jvcouriers/_content.html %}
+</body>
+</html>
